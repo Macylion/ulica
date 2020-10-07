@@ -1,0 +1,104 @@
+#form_last{
+	padding: 0;
+}
+
+.f_butt{
+	float: left;
+	padding: 2%;
+	margin: 0;
+	width: 46%;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	transition: background-color .3s;
+	cursor: pointer;
+}
+
+.f_butt:hover{
+	background-color: rgba(187, 187, 187, 0.8);
+	transition: background-color .3s;
+}
+
+#form_first{
+	margin-top: 20%;
+}
+
+.form{
+	padding: 20px 0;
+	background: url("../img/square_paper.png");
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 48px;
+	box-shadow: 0px 0px 32px black;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.question{
+	padding: 4px;
+	font-size: 20px;
+	margin-left: 20px;
+	padding-bottom: 8px;
+	font-weight: bold;
+}
+
+#form_first .question{
+	text-align: center;
+	font-size: 24px;
+}
+
+.form label{
+	cursor: pointer;
+	display: block;
+	padding: 4px;
+	font-size: 18px;
+	padding-left: 36px;
+	border-left: 0;
+	transition: color .2s, background-color .5s, padding-left 1s, border-left 1s;
+}
+
+.form label:hover{
+	color: black;
+	background-color: rgba(187, 187, 187, 0.5);
+	border-left: 30px solid yellow;
+	padding-left: 6px;
+	transition: color .2s, background-color .5s, padding-left 1s, border-left 1s;
+}
+
+label input[type=radio]{
+	display: none;
+}
+
+label input[type=checkbox]{
+	display: none;
+}
+
+.form .lab{
+	cursor: pointer;
+	color: black;
+	background-color: rgba(187, 187, 187, 0.5);
+	border-left: 30px solid yellow;
+	padding-left: 6px;
+}
+
+.form .labR{
+	cursor: pointer;
+	color: black;
+	background-color: rgba(187, 187, 187, 0.5);
+	border-left: 30px solid red;
+	padding-left: 6px;
+}
+
+.form .labG{
+	cursor: pointer;
+	color: black;
+	background-color: rgba(187, 187, 187, 0.5);
+	border-left: 30px solid green;
+	padding-left: 6px;
+}
+
+#pp{
+	display: none;
+	animation-name: sta;
+	animation-duration: 1s;
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://ulica.macylion.pl/</loc>
+  <lastmod>2017-12-01T23:13:46+00:00</lastmod>
+  <priority>1</priority>
+</url>
+<url>
+  <loc>http://ulica.macylion.pl/index.html</loc>
+  <lastmod>2017-12-01T23:13:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ulica.macylion.pl/gallery.html</loc>
+  <lastmod>2017-11-30T00:13:44+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://ulica.macylion.pl/history.html</loc>
+  <lastmod>2017-11-30T00:13:44+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://ulica.macylion.pl/map.html</loc>
+  <lastmod>2017-11-30T00:13:44+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://ulica.macylion.pl/quiz.html</loc>
+  <lastmod>2017-11-30T00:13:44+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://ulica.macylion.pl/feedback.php</loc>
+  <lastmod>2017-12-01T23:20:04+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://ulica.macylion.pl/author.html</loc>
+  <lastmod>2017-11-30T00:13:44+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+</urlset>

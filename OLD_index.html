@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <title>Ulica Piotrkowska w Łodzi</title>
+	<meta name="author" content="Maciej Kubus">
+	<meta name="keywords" content="Ulica, Piotrkowska, Łódź, Lodz, Quiz, Mapa, Maciej, Kubus">
+	<meta name="description" content="Strona w całości poświęcona Ulicy Piorkowskiej w Łodzi. Ulica ta stanowiła od samego początku oś centralną, wokół której rozbudowywało się miasto, a jej rozwój spontanicznie nadał obecny kształt jego centrum">
+	<meta name="application-name" content="Ulica Piotrkowska">
+	<link rel="alternate" href="http://ulica.macylion.pl/" hreflang="pl">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.png"/>
+    <script src="js/script.js" defer></script>
+    <script src="js/menu.js" defer></script>
+  </head>
+  <body onload="start();" onresize="resize();" onscroll="onscroll();">
+  	<div id="bg"><video  poster="img/background.png" type="video/mp4" src="video/video.mp4" loop muted autoplay></video></div>
+	<style>
+		video{
+			min-width: 100%;
+			min-height: 100%;
+		}
+	</style>
+    <div id="menu">
+      <div class="mitem" onclick="m_show(); doSomething();"></div>
+      	<h6>Ulica Piotrkowska</h6>
+      <div class="clear"></div>
+    </div>
+         <div id="m_bg">
+      <div id="m_menu">
+        <div class="m_head">Menu</div>
+        <a href="index.html"><div class="m_select">
+          <img src="img/icons/home.png"><p>Home</p>
+        </div><div class="clear"></div></a>
+        <a href="gallery.html"><div class="m_select">
+          <img src="img/icons/gallery.png"><p>Galeria</p>
+        </div><div class="clear"></div></a>
+        <a href="history.html"><div class="m_select">
+          <img src="img/icons/history.png"><p>Historia</p>
+        </div><div class="clear"></div></a>
+        <a href="map.html"><div class="m_select">
+          <img src="img/icons/mark.png"><p>Mapa</p>
+        </div><div class="clear"></div></a>
+        <a href="quiz.html"><div class="m_select">
+          <img src="img/icons/quiz.png"><p>Quiz</p>
+        </div><div class="clear"></div></a>
+		<a href="feedback.php"><div class="m_select">
+          <img src="img/icons/feed.png"><p>Opinie</p>
+        </div><div class="clear"></div></a>
+        <div class="m_spacer"></div>
+        <a href="author.html"><div class="m_select">
+          <img src="img/icons/author.png"><p>Autor</p>
+        </div><div class="clear"></div></a>
+        <div class="m_footer">Website by Maciek &copy; 2017.</div>
+      </div>
+      <div id="m_fill" onclick="m_hide();">
+      </div>
+    </div>
+    <!--SITE-->
+    <div id="container">
+      <div class="post" id="head">
+      	<a href="index.html">
+      		<img src="img/logo.png" alt="logo">
+      	</a>
+      </div>
+      <div class="post">
+        <div class="header">Ulica Piotrkowska</div>
+        <p>Ulica ta stanowiła od samego początku oś centralną, wokół której rozbudowywało się miasto, a jej rozwój spontanicznie nadał obecny kształt jego centrum. Początkowo ulica stanowiła głównie trakt komunikacyjny, jednak z czasem zamieniła się w „wizytówkę miasta”, centrum rozrywki i handlu, gdzie koncentrowało się całe życie rozrastającej się aglomeracji przemysłowej. Ulica podupadła znacznie po II wojnie światowej. Po 1990 roku została poddana stopniowemu remontowi i zamieniona w rodzaj deptaka, który w dużym stopniu pełni rolę podobną do rynku starówki innych miast. Budowle, urbanistyka, instytucje, restauracje, kluby i puby umieszczone w pobliżu tej ulicy tworzą szczególną jej atmosferę o kultowym charakterze, wykraczającym zasięgiem poza Łódź. </p>
+        <div class="author" id="a1">&nbsp;</div>
+      </div>
+      <div class="post">
+        <div class="header">Ruch uliczny</div>
+        <p>Od placu Niepodległości do skrzyżowania z aleją Mickiewicza i aleją Piłsudskiego obowiązuje normalny ruch uliczny. Ta część ulicy jest wyłożona asfaltem i chodnikami z płyt betonowych. Na odcinku od placu Niepodległości do skrzyżowania z ulicami Żwirki oraz Wigury utrzymywany jest intensywny ruch tramwajów i autobusów. Mimo to, również na tym odcinku ulicy funkcjonuje wiele sklepów, restauracji i pubów, aczkolwiek nie mają one tak reprezentacyjnego charakteru, jak na deptakowej jej części.<br>
+		Od alei Piłsudskiego do placu Wolności (z wyjątkiem odcinków Moniuszki-Traugutta i Roosevelta-Piłsudskiego) ulica jest wyłączona z normalnego ruchu samochodowego. Prawo wjazdu mają osoby posiadające odpowiednie identyfikatory ZDiT (mieszkańcy, osoby prowadzące sklepy i puby, pojazdy ochrony, taksówki i wielu notabli) oraz dostawcy. Przez całą dobę obowiązuje tu ograniczenie prędkości do 20 km/h. Na każdym skrzyżowaniu są ustawione nakazy skrętu.</p>
+        <div class="author">&nbsp;</div>
+      </div>
+      <div class="post">
+        <div class="header">Fraszka</div>
+        <p style="text-align: center; font-style: italic;">To największą Łodzi troską,
+		aby Łódź całą – zmieścić na Piotrkowską.
+		<br><br>
+		vel
+		<br><br>
+		Jest Łodzian największą troską,
+		by zmieścić wszystko na Piotrkowską.</p>
+        <div class="author">Jan Sztaudynger</div>
+      </div>
+
+  </div>
+  <div id="footer">
+    Website by Maciek &copy; 2017.
+  </div>
+  <!--SITE-->
+  </body>
+</html>

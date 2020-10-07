@@ -1,0 +1,78 @@
+
+      <div class="comm">
+
+        <div class="comm_name">Tester</div>
+
+        <div class="comm_text">Moja opinia.<br>Wiele linijek<br>:)</div>
+
+        <div class="comm_date">23:54:23 29-11-2017</div>
+
+      </div>
+
+	
+      <div class="comm">
+
+        <div class="comm_name">Tester</div>
+
+        <div class="comm_text">Moja opinia.<br>Wiele linijek<br>:)</div>
+
+        <div class="comm_date">23:54:28 29-11-2017</div>
+
+      </div>
+
+	
+      <div class="comm">
+
+        <div class="comm_name">Tester</div>
+
+        <div class="comm_text">Moja opinia.<br>Wiele linijek<br>:)</div>
+
+        <div class="comm_date">23:54:31 29-11-2017</div>
+
+      </div>
+
+	
+      <div class="comm">
+
+        <div class="comm_name">Tester</div>
+
+        <div class="comm_text">Moja opinia.<br>Wiele linijek<br>:)</div>
+
+        <div class="comm_date">23:54:35 29-11-2017</div>
+
+      </div>
+
+	
+      <div class="comm">
+
+        <div class="comm_name">Tester</div>
+
+        <div class="comm_text">Moja opinia.<br>Wiele linijek<br>:)</div>
+
+        <div class="comm_date">23:54:38 29-11-2017</div>
+
+      </div>
+
+	
+      <div class="comm">
+
+        <div class="comm_name">Tester</div>
+
+        <div class="comm_text">Moja opinia.<br>Wiele linijek<br>:)</div>
+
+        <div class="comm_date">23:54:44 29-11-2017</div>
+
+      </div>
+
+	
+      <div class="comm">
+
+        <div class="comm_name">Tester</div>
+
+        <div class="comm_text">Moja opinia.<br>Wiele linijek<br>:)</div>
+
+        <div class="comm_date">23:54:47 29-11-2017</div>
+
+      </div>
+
+	

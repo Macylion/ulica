@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+  <head>
+    <title>Mapa - Ulica Piotrkowska w Łodzi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.png"/>
+    <script src="js/script.js" defer></script>
+    <script src="js/menu.js" defer></script>
+  </head>
+  <body onload="start();" onresize="resize();" onscroll="onscroll();">
+  	<div id="bg"></div>
+    <div id="menu">
+      <div class="mitem" onclick="m_show();"></div>
+      	<h6>Ulica Piotrkowska</h6>
+      <div class="clear"></div>
+    </div>
+        <div id="m_bg">
+      <div id="m_menu">
+        <div class="m_head">Menu</div>
+        <a href="index.html"><div class="m_select">
+          <img src="img/icons/home.png"><p>Home</p>
+        </div><div class="clear"></div></a>
+        <a href="gallery.html"><div class="m_select">
+          <img src="img/icons/gallery.png"><p>Galeria</p>
+        </div><div class="clear"></div></a>
+        <a href="history.html"><div class="m_select">
+          <img src="img/icons/history.png"><p>Historia</p>
+        </div><div class="clear"></div></a>
+        <a href="map.html"><div class="m_select">
+          <img src="img/icons/mark.png"><p>Mapa</p>
+        </div><div class="clear"></div></a>
+        <a href="quiz.html"><div class="m_select">
+          <img src="img/icons/quiz.png"><p>Quiz</p>
+        </div><div class="clear"></div></a>
+		<a href="feedback.php"><div class="m_select">
+          <img src="img/icons/feed.png"><p>Opinie</p>
+        </div><div class="clear"></div></a>
+        <div class="m_spacer"></div>
+        <a href="author.html"><div class="m_select">
+          <img src="img/icons/author.png"><p>Autor</p>
+        </div><div class="clear"></div></a>
+        <div class="m_footer">Website by Maciek &copy; 2017.</div>
+      </div>
+      <div id="m_fill" onclick="m_hide();">
+      </div>
+    </div>
+    <!--SITE-->
+    <div id="container">
+      <iframe id="gframe" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJUcgvt9Y0GkcRsHTULIzr25Y&key=AIzaSyAmssQUGEo2BDP6lxjyWOJeeZjXQS6PvvU"></iframe>
+    </div>
+    <!--SITE-->
+  </body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+  <head>
+    <title>Quiz- Ulica Piotrkowska w Łodzi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/quiz.css">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.png"/>
+    <script src="js/script.js" defer></script>
+    <script src="js/menu.js" defer></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/quiz.js"></script>
+  </head>
+  <body onload="start();">
+  	<div id="bg"></div>
+    <div id="menu">
+      <div class="mitem" onclick="m_show();"></div>
+      	<h6>Ulica Piotrkowska</h6>
+      <div class="clear"></div>
+    </div>
+    <div id="m_bg">
+      <div id="m_menu">
+        <div class="m_head">Menu</div>
+        <a href="index.html"><div class="m_select">
+          <img src="img/icons/home.png"><p>Home</p>
+        </div><div class="clear"></div></a>
+        <a href="gallery.html"><div class="m_select">
+          <img src="img/icons/gallery.png"><p>Galeria</p>
+        </div><div class="clear"></div></a>
+        <a href="history.html"><div class="m_select">
+          <img src="img/icons/history.png"><p>Historia</p>
+        </div><div class="clear"></div></a>
+        <a href="map.html"><div class="m_select">
+          <img src="img/icons/mark.png"><p>Mapa</p>
+        </div><div class="clear"></div></a>
+        <a href="quiz.html"><div class="m_select">
+          <img src="img/icons/quiz.png"><p>Quiz</p>
+        </div><div class="clear"></div></a>
+        <div class="m_spacer"></div>
+        <a href="author.html"><div class="m_select">
+          <img src="img/icons/author.png"><p>Autor</p>
+        </div><div class="clear"></div></a>
+        <div class="m_footer">Website by Maciek &copy; 2017.</div>
+      </div>
+      <div id="m_fill" onclick="m_hide();">
+      </div>
+    </div>
+    <!--SITE-->
+    <div id="container">
+      
+      <div class="form" id="form_first">
+        <div class="question">Quiz - Ulica Piotrkowska w Łodzi.</div>
+      </div>
+
+      <div class="form">
+        <form name="form1">
+          <div class="question">Jaką długość mierzy ulica?</div>
+            <label onclick="setClass();"><input value="1" type="radio" name="answer">ok. 4,2 KM</label>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">ok. 4,4 KM</label>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">ok. 6,2 KM</label>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">ok. 6,4 KM</label>
+        </form>
+      </div>
+
+      <div class="form">
+        <form name="form2">
+          <div class="question">Ile remontów przeszła ulica?</div>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">1</label>
+            <label onclick="setClass();"><input value="1" type="radio" name="answer">2</label>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">3</label>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">4</label>
+        </form>
+      </div>
+
+      <div class="form">
+        <form name="form3">
+          <div class="question">Kto jest autorem Fraszki na stronie głównej?</div>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">Jan Krasicki</label>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">Jan Kochanowski</label>
+            <label onclick="setClass();"><input value="1" type="radio" name="answer">Jan Sztaudynger</label>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">Jan Brzechwa</label>
+        </form>
+      </div>
+
+      <div class="form">
+        <form name="form4">
+          <div class="question">Węższa cześć ulicy znajduje się po stronie</div>
+            <label onclick="setClass();"><input value="1" type="radio" name="answer">Placu Wolności</label>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">Placu Niepodległości</label>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">Placu Ulicy Piotrkowskiej</label>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">Placu Centralnego</label>
+        </form>
+      </div>
+
+      <div class="form">
+        <form name="form5">
+          <div class="question">Szersza cześć ulicy znajduje się po stronie</div>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">Placu Wolności</label>
+            <label onclick="setClass();"><input value="1" type="radio" name="answer">Placu Niepodległości</label>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">Placu Ulicy Piotrkowskiej</label>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">Placu Centralnego</label>
+        </form>
+      </div>
+
+      <div class="form">
+        <form name="form6">
+          <div class="question">Czy ulica przecina al. Adama Mickiewicza</div>
+            <label onclick="setClass();"><input value="1" type="radio" name="answer">Tak</label>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">Nie</label>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">Odpowiedź nie istnieje</label>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">Tak, ale tylko w określone dni</label>
+        </form>
+      </div>
+
+      <div class="form">
+        <form name="form7">
+          <div class="question">W którym roku przekształcono Trakt Piotrkowski w ulice?</div>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">1723</label>
+            <label onclick="setClass();"><input value="1" type="radio" name="answer">1823</label>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">1923</label>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">2023</label>
+        </form>
+      </div>
+
+      <div class="form">
+        <form name="form8">
+          <div class="question">Jeden z budynków w tle to</div>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">Kamienica Scheiblerów</label>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">Dom bankowy Wilhelma Landaua</label>
+            <label onclick="setClass();"><input value="0" type="radio" name="answer">Archikatedra św. Stanisława Kostki</label>
+            <label onclick="setClass();"><input value="1" type="radio" name="answer">Kamienica pod Gutenbergiem</label>
+        </form>
+      </div>
+
+      <div class="form">
+        <form name="form9">
+          <div class="question">Co początkowo łączył Trakt Piotrkowski</div>
+            <label id="x1" onclick="setClass();"><input value="ag" type="checkbox" name="answer">Zgierz</label>
+            <label onclick="setClass();"><input value="ab" type="checkbox" name="answer">Aleksadrów Łódzkich</label>
+            <label id="x2" onclick="setClass();"><input value="ag" type="checkbox" name="answer">Piotrków Trybunaskich</label>
+            <label onclick="setClass();"><input value="ab" type="checkbox" name="answer">Okoliczne wsi</label>
+        </form>
+      </div>
+
+      <div class="form">
+        <form name="form10">
+          <div class="question">Jakie nazwy ulica nosiła w przeszłości?</div>
+            <label id="x3" onclick="setClass();"><input value="bg" type="checkbox" name="answer">Trakt Piotrkowski</label>
+            <label id="x4" onclick="setClass();"><input value="bg" type="checkbox" name="answer">Adolf Hitler Straße</label>
+            <label onclick="setClass();"><input value="bb" type="checkbox" name="answer">Aleja Piotrkowska</label>
+            <label onclick="setClass();"><input value="bb" type="checkbox" name="answer">Prosty Deptak Łódzki</label>
+        </form>
+      </div>
+
+      <div class="form" id="pp">
+        <div class="question" id="ppp">Uzyskane punkty: 2/10</div>
+      </div>
+
+      <div class="form" id="form_last">
+        <div class="f_butt" onclick="check();">Sprawdź</div>
+        <div class="f_butt" onclick="reset();">Zresetuj</div>
+        <div class="clear"></div>
+      </div>
+
+    </div>
+    <div id="footer">
+      Website by Maciek &copy; 2017.
+    </div>
+    <!--SITE-->
+  </body>
+</html>

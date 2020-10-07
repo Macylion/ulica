@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+  <head>
+    <title>Autor - Ulica Piotrkowska w Łodzi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.png"/>
+    <script src="js/script.js" defer></script>
+    <script src="js/menu.js" defer></script>
+    <script src="js/author.js" defer></script>
+  </head>
+  <body onload="start();" onresize="resize();" onscroll="onscroll();">
+  	<div id="bg"></div>
+    <div id="menu">
+      <div class="mitem" onclick="m_show();"></div>
+      	<h6>Ulica Piotrkowska</h6>
+      <div class="clear"></div>
+    </div>
+       <div id="m_bg">
+      <div id="m_menu">
+        <div class="m_head">Menu</div>
+        <a href="index.html"><div class="m_select">
+          <img src="img/icons/home.png"><p>Home</p>
+        </div><div class="clear"></div></a>
+        <a href="gallery.html"><div class="m_select">
+          <img src="img/icons/gallery.png"><p>Galeria</p>
+        </div><div class="clear"></div></a>
+        <a href="history.html"><div class="m_select">
+          <img src="img/icons/history.png"><p>Historia</p>
+        </div><div class="clear"></div></a>
+        <a href="map.html"><div class="m_select">
+          <img src="img/icons/mark.png"><p>Mapa</p>
+        </div><div class="clear"></div></a>
+        <a href="quiz.html"><div class="m_select">
+          <img src="img/icons/quiz.png"><p>Quiz</p>
+        </div><div class="clear"></div></a>
+        <div class="m_spacer"></div>
+        <a href="author.html"><div class="m_select">
+          <img src="img/icons/author.png"><p>Autor</p>
+        </div><div class="clear"></div></a>
+        <div class="m_footer">Website by Maciek &copy; 2017.</div>
+      </div>
+      <div id="m_fill" onclick="m_hide();">
+      </div>
+    </div>
+    <!--SITE-->
+    <div id="container">
+      <div id="a_cont">
+        <div id="a_avatar"><img src="img/avatar.png"></div>
+        <div id="a_info">
+          <div id="a_line1">Maciej Kubus</div>
+          <a href="mailto:maciekkubus@gmail.com"><div id="a_line2">maciekkubus@gmail.com</div></a>
+          <div id="a_line4">Poważnie Szanowany Programista i <br> Poważny Twórca Stron Internetowych</div>
+        </div>
+        <div class="clear"></div>
+        <div id="at_head">Specjalne podziękowania dla</div>
+        <a href="https://fonts.google.com/" target="_blank"><div class="at_item">Google Fonts</div></a>
+        <a href="https://developers.google.com/maps/documentation/embed/"><div class="at_item" target="_blank">Google Maps API</div></a>
+        <a href="https://icons8.com/" target="_blank"><div class="at_item">Icons8</div></a>
+        <a href="https://www.toptal.com/designers/subtlepatterns/" target="_blank"><div class="at_item">Subble Patterns</div></a>
+        <a href="https://cooltext.com/" target="_blank"><div class="at_item">Cooltext</div></a>
+         <a href="https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna"><div class="at_item" target="_blank">Wikipedia</div></a>
+      </div>
+    </div>
+    <div id="footer">
+      Website by Maciek &copy; 2017.
+    </div>
+    <!--SITE-->
+  </body>
+</html>

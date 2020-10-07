@@ -1,0 +1,35 @@
+
+@keyframes anim_r{
+  0%{ right: 2000px;}
+  100% {right: 0;}
+}
+
+@keyframes spin1{
+  0% {transform: rotateZ(0deg);}
+  100% {transform: rotateZ(180deg);}
+}
+
+@keyframes spin2{
+  0% {transform: rotateZ(180deg);}
+  100% {transform: rotateZ(0deg);}
+}
+
+@keyframes m_anim{
+  0% {left: -256px;}
+  100% {left: 0px;}
+}
+
+@keyframes avatar{
+	0% {transform: scale(0);}
+	100% {transform: scale(1);}
+}
+
+@keyframes sta{
+	0% {transform: scale(0);}
+	100% {transform: scale(1);}
+}
+
+@keyframes snow{
+  0% {background-position: 0px 0px;}
+  100% {background-position: 2000px 2000px, 3000px 4000px, 6000px 5000px;}
+}
